@@ -64,6 +64,19 @@ a {
   text-transform: uppercase;
 }
 
+.btn {
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 20px 0;
+  display: block;
+}
+
+.btn-border {
+  border: 1px solid;
+}
+
 .btn-green {
   background: #34C176;
   color: #fff;
@@ -242,7 +255,6 @@ a {
 .form-btn {
   width: 100%;
   margin-top: 24px;
-  height: 57px;
   border-radius: 5px;
   font-size: 14px;
   outline: none;
@@ -262,5 +274,100 @@ a {
   }
   .form-btn {
     margin-top: 0;
+  }
+}
+.pricing {
+  padding-top: 100px;
+  color: #fff;
+  text-align: center;
+}
+
+.pricing-title {
+  margin-bottom: 48px;
+}
+
+.pricing-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pricing-item {
+  width: calc(33.3333333333% - 25px);
+  margin-bottom: 50px;
+  padding: 21px 1.5rem 64px;
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 615px;
+}
+
+.bg-free {
+  background-image: url("../images/subscribe_1.png");
+}
+
+.bg-standard {
+  background-image: url("../images/subscribe_2.png");
+}
+
+.bg-premium {
+  background-image: url("../images/subscribe_3.png");
+}
+
+.pricing-item-title {
+  margin-bottom: 200px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.pricing-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.pricing-value {
+  font-size: 64px;
+  margin-right: 16px;
+  line-height: 1;
+}
+
+.pricing-rub {
+  font-size: 32px;
+  line-height: 1;
+  position: relative;
+  top: -2px;
+}
+
+.pricing-buy {
+  margin-bottom: 64px;
+}
+
+.pricing-description {
+  font-size: 13px;
+  line-height: 150%;
+}
+
+.pricing-footer {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+@media (max-width: 768px) {
+  .pricing-item {
+    width: 100%;
+    padding-top: 16px;
+  }
+  .pricing-item:last-child {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .pricing-item-title {
+    font-size: 16px;
+    font-weight: 700;
   }
 }/*# sourceMappingURL=app.css.map */

@@ -39,6 +39,17 @@ a{
 .uppercase{
     text-transform: uppercase;
 }
+.btn{
+    text-transform: uppercase;
+    color: $white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 20px 0;
+    display: block;
+}
+.btn-border{
+    border: 1px solid;
+}
 .btn-green {
     background: $green;
     color: $white;
