@@ -1,0 +1,45 @@
+.hero {
+    padding: 200px 0;
+    text-align: center;
+    color: $white;
+    background: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+}
+.hero-subtitle {
+    margin-bottom: 30px;
+}
+.hero-description {
+    margin-bottom: 16px;
+}
+.hero-form {
+    max-width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.form-input {
+    width: calc(50% - 12px);
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid $white;
+    color: $white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 22px;
+    background: transparent;
+}
+.form-input::placeholder {
+    color: $white;
+}
+.form-btn {
+    width: 100%;
+    margin-top: 24px;
+    height: 57px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+}

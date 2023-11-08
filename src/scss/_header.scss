@@ -1,0 +1,55 @@
+.header {
+    position: absolute;
+    width: 100%;
+    padding: 25px 0;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+}
+.header-music {
+    position: relative;
+    padding-left: 40px;
+}
+.header-music::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='104px' height='104px' viewBox='0 0 104 104' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg id='3.Multimedia' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'%3e%3cg id='Multimedia-(Monochrome)' transform='translate(-498.000000, -702.000000)' stroke='%231565C0' stroke-width='3.5'%3e%3cg id='33-multimeda-music-itunes' transform='translate(500.000000, 704.000000)'%3e%3ccircle id='Layer-1' fill='%23E2F3FB' cx='50' cy='50' r='50'%3e%3c/circle%3e%3cpolygon id='Layer-2' fill='%23FFFFFF' points='70.9656218 19.241641 70.9656218 34.4892293 34.9898888 40.5107273 34.9898888 25.2887601'%3e%3c/polygon%3e%3cellipse id='Layer-3' fill='%23FFFFFF' cx='63.4706775' cy='66.44' rx='7.49494439' ry='5.93'%3e%3c/ellipse%3e%3cellipse id='Layer-4' fill='%23FFFFFF' cx='27.4949444' cy='72.37' rx='7.49494439' ry='5.93'%3e%3c/ellipse%3e%3cpath d='M34.9898888,40.6431145 L34.9898888,72.37' id='Layer-5' fill='%23E2F3FB'%3e%3c/path%3e%3cpath d='M70.9656218,35.011 L70.9656218,66.4450242' id='Layer-6' fill='%23E2F3FB'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+}
+.header-nav-item {
+    margin-right: 24px;
+}
+.header-nav-item:last-child {
+    margin-right: 0;
+}
+.header-nav-link {
+    color: $text;
+    font-size: 11px;
+}
+.header-search {
+    margin: 0 0 0 auto;
+    width: 248px;
+}
+.header-search-input {
+    width: 100%;
+    height: 25px;
+    background: #3C3B3D;
+    border-radius: 50px;
+    padding: 0 10px;
+    color: $white;
+}
+
+.header-search-input::placeholder {
+    color: #757575;
+}
