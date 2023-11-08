@@ -27,4 +27,17 @@
 .mobile-img {
     width: 50%;
     max-width: 333px;
+    height: 100%;
+}
+@media(max-width: 576px){
+    .mobile-content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .mobile-left {
+        width: 100%;
+    }
+    .mobile-img{
+
+    }
 }
