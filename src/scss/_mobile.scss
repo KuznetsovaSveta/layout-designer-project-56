@@ -1,0 +1,30 @@
+.mobile {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.mobile-title {
+    color: $white;
+    margin-bottom: 48px;
+}
+.mobile-content {
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-left {
+    width: 50%;
+}
+.mobile-text {
+    margin-bottom: 16px;
+}
+.mobile-btn {
+    background: $red;
+    border-radius: 32px;
+    text-transform: capitalize;
+    font-size: 12.8px;
+    color: $white;
+    padding: 16px 40px;
+}
+.mobile-img {
+    width: 50%;
+    max-width: 333px;
+}
