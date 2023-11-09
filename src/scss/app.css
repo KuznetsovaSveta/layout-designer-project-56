@@ -502,6 +502,7 @@ a {
 
 .mobile-left {
   width: 50%;
+  padding-top: 16px;
 }
 
 .mobile-text {
@@ -530,6 +531,7 @@ a {
   }
   .mobile-left {
     width: 100%;
+    padding-top: 0;
   }
   .mobile-img {
     width: 100%;
