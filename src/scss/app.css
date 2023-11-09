@@ -220,6 +220,9 @@ a {
     align-items: start;
     padding-left: 0;
   }
+  .header-nav-item {
+    font-weight: 700;
+  }
   .header-music {
     margin-bottom: 24px;
   }
@@ -530,6 +533,7 @@ a {
   }
   .mobile-img {
     width: 100%;
+    margin-bottom: 16px;
   }
 }
 .footer {
@@ -603,7 +607,7 @@ a {
   }
 }
 .artist {
-  padding: 250px 0 220px;
+  padding: 248px 0 220px;
   color: #fff;
   background-image: url(../images/Morten\ Harket.png);
   background-position: center;
