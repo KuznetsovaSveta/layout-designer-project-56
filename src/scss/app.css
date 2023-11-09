@@ -627,4 +627,20 @@ a {
 
 .artist-mix {
   margin-right: 1.5em;
+}
+
+@media (max-width: 576px) {
+  .artist-title {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 480px) {
+  .artist-buttons {
+    flex-direction: column;
+  }
+  .artist-mix {
+    margin-right: 0;
+    margin-bottom: 1.5em;
+  }
 }/*# sourceMappingURL=app.css.map */
