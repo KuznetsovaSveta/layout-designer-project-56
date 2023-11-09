@@ -155,6 +155,8 @@ a {
 
 .header-nav-item {
   margin-right: 24px;
+  font-size: 11px;
+  line-height: 13px;
 }
 
 .header-nav-item:last-child {
@@ -164,6 +166,7 @@ a {
 .header-nav-link {
   color: #cacaca;
   font-size: 11px;
+  line-height: 13px;
 }
 .header-nav-link:hover {
   color: #fff;

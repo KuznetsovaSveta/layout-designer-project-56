@@ -38,6 +38,8 @@
 }
 .header-nav-item {
     margin-right: 24px;
+    font-size: 11px;
+    line-height: 13px;
 }
 .header-nav-item:last-child {
     margin-right: 0;
@@ -45,6 +47,7 @@
 .header-nav-link {
     color: $text;
     font-size: 11px;
+    line-height: 13px;
     &:hover{
         color: $white;
     }
