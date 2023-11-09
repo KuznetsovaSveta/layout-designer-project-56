@@ -1,0 +1,39 @@
+.artist {
+    padding: 250px 0 220px;
+    color: $white;
+    background-image: url(../images/Morten\ Harket.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist-container {}
+
+.artist-title {
+    text-align: left;
+    font-size: 60px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.artist-buttons {
+    margin-top: 48px;
+    display: flex;
+}
+
+.artist-button {
+    width: 200px;
+    padding: 20px 30px;
+    font-size: 12.8px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+    svg {
+        margin-right: 16px;
+    }
+}
+
+.artist-mix {
+    margin-right: 1.5em;
+}

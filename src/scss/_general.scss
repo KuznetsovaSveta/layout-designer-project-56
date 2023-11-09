@@ -57,6 +57,12 @@ a{
     background: $green;
     color: $white;
 }
+.btn-purple {
+    background: $purple;
+}
+.btn-red {
+    background: $red;
+}
 @media(max-width: 1240px){
     .container{
         max-width: 100%;

@@ -1,20 +1,20 @@
 @font-face {
   font-display: swap;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/Roboto-Regular") format("ttf");
 }
 @font-face {
   font-display: swap;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   src: url("../fonts/Roboto-Mediun") format("ttf");
 }
 @font-face {
   font-display: swap;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/Roboto-Bold") format("ttf");
@@ -83,6 +83,14 @@ a {
 .btn-green {
   background: #34C176;
   color: #fff;
+}
+
+.btn-purple {
+  background: #5328A1;
+}
+
+.btn-red {
+  background: #95390C;
 }
 
 @media (max-width: 1240px) {
@@ -583,4 +591,40 @@ a {
   .footer-bottom-link {
     margin-bottom: 16px;
   }
+}
+.artist {
+  padding: 250px 0 220px;
+  color: #fff;
+  background-image: url(../images/Morten\ Harket.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.artist-title {
+  text-align: left;
+  font-size: 60px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.artist-buttons {
+  margin-top: 48px;
+  display: flex;
+}
+
+.artist-button {
+  width: 200px;
+  padding: 20px 30px;
+  font-size: 12.8px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.artist-button svg {
+  margin-right: 16px;
+}
+
+.artist-mix {
+  margin-right: 1.5em;
 }/*# sourceMappingURL=app.css.map */
