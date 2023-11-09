@@ -1,23 +1,23 @@
 @font-face {
   font-display: swap;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/Roboto-Regular") format("ttf");
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
 }
 @font-face {
   font-display: swap;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Roboto-Mediun") format("ttf");
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2");
 }
 @font-face {
   font-display: swap;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/Roboto-Bold") format("ttf");
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2");
 }
 * {
   padding: 0;
@@ -26,7 +26,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   color: #cacaca;
   background: #08020d;
@@ -164,6 +164,9 @@ a {
 .header-nav-link {
   color: #cacaca;
   font-size: 11px;
+}
+.header-nav-link:hover {
+  color: #fff;
 }
 
 .header-search {
@@ -355,6 +358,7 @@ a {
 
 .pricing-buy {
   margin-bottom: 64px;
+  width: 100%;
 }
 
 .pricing-description {

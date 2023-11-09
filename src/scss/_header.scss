@@ -45,6 +45,9 @@
 .header-nav-link {
     color: $text;
     font-size: 11px;
+    &:hover{
+        color: $white;
+    }
 }
 .header-search {
     width: 248px;
