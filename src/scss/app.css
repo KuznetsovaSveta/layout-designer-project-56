@@ -702,4 +702,58 @@ a {
   .popular-track {
     width: 100%;
   }
+}
+.discography {
+  padding-top: 100px;
+  color: #fff;
+  margin-bottom: -25px;
+}
+
+.discography-title {
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.discography-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.discography-item {
+  width: calc(25% - 50px);
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.discography-img {
+  width: 250px;
+  height: auto;
+  max-width: 100%;
+  max-height: 250px;
+  margin-bottom: 18px;
+}
+
+.discography-name {
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.discography-year {
+  color: #E0E0E0;
+}
+
+@media (max-width: 768px) {
+  .discography-item {
+    width: calc(33.3333333333% - 50px);
+  }
+}
+@media (max-width: 660px) {
+  .discography-item {
+    width: 137px;
+  }
+  .discography-img {
+    width: 137px;
+    max-height: 137px;
+  }
 }/*# sourceMappingURL=app.css.map */
