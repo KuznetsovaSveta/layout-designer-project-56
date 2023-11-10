@@ -25,10 +25,12 @@
     color: $white;
     padding: 16px 40px;
 }
-.mobile-img {
+.mobile-right {
     width: 50%;
+    text-align: center;
+}
+.mobile-img {
     max-width: 333px;
-    height: 100%;
 }
 @media(max-width: 576px){
     .mobile-content{
@@ -39,8 +41,8 @@
         width: 100%;
         padding-top: 0;
     }
-    .mobile-img{
+    .mobile-right{
         width: 100%;
-        margin-bottom: 16px;
+        margin-bottom: 10px;
     }
 }

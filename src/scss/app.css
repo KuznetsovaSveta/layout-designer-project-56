@@ -204,7 +204,7 @@ a {
     align-items: start;
   }
   .header-left {
-    margin-bottom: 18px;
+    margin-bottom: 16px;
   }
   .header-search {
     width: 100%;
@@ -222,6 +222,7 @@ a {
   }
   .header-nav-item {
     font-weight: 700;
+    margin-bottom: 3px;
   }
   .header-music {
     margin-bottom: 24px;
@@ -283,7 +284,7 @@ a {
 
 @media (max-width: 576px) {
   .hero {
-    padding-top: 250px;
+    padding-top: 248px;
   }
   .hero-subtitle {
     margin-bottom: 16px;
@@ -314,14 +315,13 @@ a {
 }
 
 .pricing-item {
-  width: calc(33.3333333333% - 25px);
-  margin-bottom: 50px;
+  width: calc(33.3333333333% - 33px);
+  margin-bottom: 40px;
   padding: 21px 1.5rem 64px;
   border-radius: 1em;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 615px;
 }
 
 .bg-free {
@@ -359,7 +359,7 @@ a {
   font-size: 32px;
   line-height: 1;
   position: relative;
-  top: -2px;
+  top: -7px;
 }
 
 .pricing-buy {
@@ -381,6 +381,7 @@ a {
   .pricing-item {
     width: 100%;
     padding-top: 16px;
+    margin-bottom: 50px;
   }
   .pricing-item:last-child {
     margin-bottom: 40px;
@@ -436,6 +437,10 @@ a {
   margin-bottom: 24px;
 }
 
+.news-item-reverse .new-description {
+  margin-bottom: 16px;
+}
+
 .new-footer {
   display: flex;
   align-items: center;
@@ -445,7 +450,7 @@ a {
 
 .new-author {
   color: #F89202;
-  margin-right: 16px;
+  margin-right: 20px;
   position: relative;
   padding-left: 35px;
 }
@@ -460,6 +465,11 @@ a {
   height: 19px;
   border-radius: 50%;
   background-image: url("../images/avatar 1.png");
+}
+
+.new-date {
+  font-size: 12px;
+  line-height: 19.2px;
 }
 
 .new-btn {
@@ -518,10 +528,13 @@ a {
   padding: 16px 40px;
 }
 
-.mobile-img {
+.mobile-right {
   width: 50%;
+  text-align: center;
+}
+
+.mobile-img {
   max-width: 333px;
-  height: 100%;
 }
 
 @media (max-width: 576px) {
@@ -533,9 +546,9 @@ a {
     width: 100%;
     padding-top: 0;
   }
-  .mobile-img {
+  .mobile-right {
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
 }
 .footer {
@@ -543,8 +556,8 @@ a {
 }
 
 .footer-top {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 62px;
+  padding-bottom: 70px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 40px;
@@ -578,7 +591,7 @@ a {
 }
 
 .footer-bottom {
-  padding: 2rem 0;
+  padding: 40px 0;
   border-top: 2px solid #fff;
 }
 
@@ -607,6 +620,9 @@ a {
   }
   .footer-bottom-link {
     margin-bottom: 16px;
+  }
+  .footer-bottom-link:last-child {
+    margin-bottom: 0;
   }
 }
 .artist {

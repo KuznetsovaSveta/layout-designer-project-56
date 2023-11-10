@@ -13,14 +13,14 @@
     flex-wrap: wrap;
 }
 .pricing-item {
-    width: calc(100% / 3 - 25px);
-    margin-bottom: 50px;
+    width: calc(100% / 3 - 33px);
+    margin-bottom: 40px;
     padding: 21px 1.5rem 64px;
     border-radius: 1em;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 615px;
+    // height: 615px;
 }
 .bg-free {
     background-image: url('../images/subscribe_1.png');
@@ -51,7 +51,7 @@
     font-size: 32px;
     line-height: 1;
     position: relative;
-    top: -2px;
+    top: -7px;
 }
 .pricing-buy {
     margin-bottom: 64px;
@@ -69,6 +69,7 @@
     .pricing-item{
         width: 100%;
         padding-top: 16px;
+        margin-bottom: 50px;
         &:last-child{
             margin-bottom: 40px;
         }

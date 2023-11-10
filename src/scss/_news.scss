@@ -42,6 +42,9 @@
 .new-description {
     margin-bottom: 24px;
 }
+.news-item-reverse .new-description{
+    margin-bottom: 16px;
+}
 
 .new-footer {
     display: flex;
@@ -52,7 +55,7 @@
 
 .new-author {
     color: $orange;
-    margin-right: 16px;
+    margin-right: 20px;
     position: relative;
     padding-left: 35px;
 }
@@ -68,7 +71,10 @@
     border-radius: 50%;
     background-image: url('../images/avatar\ 1.png');
 }
-
+.new-date{
+    font-size: 12px;
+    line-height: 19.2px;
+}
 .new-btn {
     padding: 16px 30px;
     color: $text;
