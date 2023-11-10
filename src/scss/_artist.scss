@@ -23,6 +23,7 @@
 
 .artist-button {
     width: 200px;
+    height: 62px;
     padding: 20px 30px;
     font-size: 12.8px;
     text-align: left;
@@ -35,9 +36,12 @@
 }
 
 .artist-mix {
-    margin-right: 1.5em;
+    margin-right: 24px;
 }
 @media(max-width:576px){
+    .artist{
+        padding: 225px 0;
+    }
     .artist-title{
         font-size: 30px;
         line-height: 45px;

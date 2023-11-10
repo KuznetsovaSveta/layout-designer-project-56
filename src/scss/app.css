@@ -648,6 +648,7 @@ a {
 
 .artist-button {
   width: 200px;
+  height: 62px;
   padding: 20px 30px;
   font-size: 12.8px;
   text-align: left;
@@ -659,10 +660,13 @@ a {
 }
 
 .artist-mix {
-  margin-right: 1.5em;
+  margin-right: 24px;
 }
 
 @media (max-width: 576px) {
+  .artist {
+    padding: 225px 0;
+  }
   .artist-title {
     font-size: 30px;
     line-height: 45px;
@@ -680,6 +684,7 @@ a {
 .popular {
   padding-top: 100px;
   color: #fff;
+  margin-bottom: -25px;
 }
 
 .popular-title {
@@ -690,7 +695,6 @@ a {
 .popular-tracks {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .popular-track {
@@ -701,6 +705,9 @@ a {
   justify-content: space-between;
   font-size: 12.8px;
   line-height: 150%;
+}
+.popular-track:nth-child(2n) {
+  margin-left: 50px;
 }
 
 .track-left {
@@ -716,6 +723,8 @@ a {
 
 .track-name {
   font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12.8px;
 }
 
 .track-artist {
@@ -734,6 +743,9 @@ a {
 @media (max-width: 576px) {
   .popular-track {
     width: 100%;
+  }
+  .popular-track:nth-child(2n) {
+    margin-left: 0;
   }
 }
 .discography {
@@ -763,7 +775,7 @@ a {
   height: auto;
   max-width: 100%;
   max-height: 250px;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 
 .discography-name {
@@ -792,7 +804,7 @@ a {
 }
 .similar {
   padding-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
   color: #fff;
 }
 
@@ -818,7 +830,7 @@ a {
   height: auto;
   max-width: 100%;
   max-height: 250px;
-  margin-bottom: 17px;
+  margin-bottom: 12px;
 }
 
 .similar-name {
