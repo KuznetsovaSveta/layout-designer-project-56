@@ -381,7 +381,7 @@ a {
 @media (max-width: 768px) {
   .pricing-item {
     width: 100%;
-    padding-top: 16px;
+    padding-top: 15px;
     margin-bottom: 50px;
   }
   .pricing-item:last-child {
@@ -830,13 +830,12 @@ a {
   height: auto;
   max-width: 100%;
   max-height: 250px;
-  margin-bottom: 12px;
+  margin-bottom: 11px;
 }
 
 .similar-name {
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 1px;
 }
 
 .similar-followers {
