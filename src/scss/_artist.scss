@@ -38,20 +38,24 @@
 .artist-mix {
     margin-right: 24px;
 }
-@media(max-width:576px){
-    .artist{
+
+@media(max-width:576px) {
+    .artist {
         padding: 225px 0;
     }
-    .artist-title{
+
+    .artist-title {
         font-size: 30px;
         line-height: 45px;
     }
 }
-@media(max-width:480px){
-    .artist-buttons{
+
+@media(max-width:480px) {
+    .artist-buttons {
         flex-direction: column;
     }
-    .artist-mix{
+
+    .artist-mix {
         margin-right: 0;
         margin-bottom: 1.5em;
     }

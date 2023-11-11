@@ -36,13 +36,14 @@
     color: $white;
     margin-bottom: 30px;
     font-weight: 400;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
 
 .new-description {
     margin-bottom: 24px;
 }
-.news-item-reverse .new-description{
+
+.news-item-reverse .new-description {
     margin-bottom: 16px;
 }
 
@@ -71,10 +72,12 @@
     border-radius: 50%;
     background-image: url('../images/avatar\ 1.png');
 }
-.new-date{
+
+.new-date {
     font-size: 12px;
     line-height: 19.2px;
 }
+
 .new-btn {
     padding: 16px 30px;
     color: $text;
@@ -86,14 +89,17 @@
         flex-direction: column;
         width: 100%;
     }
-    .new-img{
+
+    .new-img {
         width: 100%;
         margin-bottom: 50px;
     }
-    .new-right{
+
+    .new-right {
         width: 100%;
     }
-    .new-title{
+
+    .new-title {
         font-size: 16px;
         margin-bottom: 16px;
     }

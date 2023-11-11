@@ -3,21 +3,25 @@
     width: 100%;
     padding: 25px 0;
 }
-.header-container{
+
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.header-left{
+
+.header-left {
     display: flex;
     align-items: baseline;
 }
+
 .header-music {
     position: relative;
     padding-left: 40px;
     font-size: 11px;
 }
+
 .header-music::before {
     content: '';
     width: 24px;
@@ -31,30 +35,37 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
 .header-nav {
     display: flex;
     align-items: center;
     padding-left: 90px;
 }
+
 .header-nav-item {
     margin-right: 24px;
     font-size: 11px;
     line-height: 13px;
 }
+
 .header-nav-item:last-child {
     margin-right: 0;
 }
+
 .header-nav-link {
     color: $text;
     font-size: 11px;
     line-height: 13px;
-    &:hover{
+
+    &:hover {
         color: $white;
     }
 }
+
 .header-search {
     width: 248px;
 }
+
 .header-search-input {
     width: 100%;
     height: 25px;
@@ -67,43 +78,51 @@
 .header-search-input::placeholder {
     color: #757575;
 }
-@media(max-width: 992px){
-    .header{
-        &-nav{
+
+@media(max-width: 992px) {
+    .header {
+        &-nav {
             padding-left: 24px;
         }
     }
 }
-@media(max-width: 768px){
-    .header{
-        &-container{
+
+@media(max-width: 768px) {
+    .header {
+        &-container {
             flex-direction: column;
             align-items: start;
         }
-        &-left{
+
+        &-left {
             margin-bottom: 16px;
         }
-        &-search{
+
+        &-search {
             width: 100%;
         }
     }
 }
-@media(max-width: 576px){
-    .header{
-        &-left{
+
+@media(max-width: 576px) {
+    .header {
+        &-left {
             flex-direction: column;
             align-items: start;
         }
-        &-nav{
+
+        &-nav {
             flex-direction: column;
             align-items: start;
             padding-left: 0;
-            &-item{
+
+            &-item {
                 font-weight: 700;
                 margin-bottom: 3px;
             }
         }
-        &-music{
+
+        &-music {
             margin-bottom: 24px;
         }
     }

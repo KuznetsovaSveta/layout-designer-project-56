@@ -2,21 +2,26 @@
     padding-top: 100px;
     margin-bottom: 100px;
 }
+
 .mobile-title {
     color: $white;
     margin-bottom: 48px;
 }
+
 .mobile-content {
     display: flex;
     justify-content: space-between;
 }
+
 .mobile-left {
     width: 50%;
     padding-top: 16px;
 }
+
 .mobile-text {
     margin-bottom: 16px;
 }
+
 .mobile-btn {
     background: $red;
     border-radius: 32px;
@@ -25,23 +30,28 @@
     color: $white;
     padding: 16px 40px;
 }
+
 .mobile-right {
     width: 48%;
     text-align: center;
 }
+
 .mobile-img {
     max-width: 333px;
 }
-@media(max-width: 576px){
-    .mobile-content{
+
+@media(max-width: 576px) {
+    .mobile-content {
         flex-direction: column-reverse;
         align-items: center;
     }
+
     .mobile-left {
         width: 100%;
         padding-top: 0;
     }
-    .mobile-right{
+
+    .mobile-right {
         width: 100%;
         margin-bottom: 10px;
     }

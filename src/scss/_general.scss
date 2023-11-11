@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
@@ -26,23 +27,26 @@ h2 {
     text-align: center;
 }
 
-input{
+input {
     outline: none;
     border: none;
 }
 
-.container{
+.container {
     max-width: 1240px;
     padding: 0 20px;
     margin: 0 auto;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.uppercase{
+
+.uppercase {
     text-transform: uppercase;
 }
-.btn{
+
+.btn {
     text-transform: uppercase;
     color: $white;
     border-radius: 5px;
@@ -51,31 +55,37 @@ a{
     display: inline-block;
     text-align: center;
 }
-.btn-border{
+
+.btn-border {
     border: 1px solid;
 }
+
 .btn-green {
     background: $green;
     color: $white;
 }
+
 .btn-purple {
     background: $purple;
 }
+
 .btn-red {
     background: $red;
 }
-@media(max-width: 1240px){
-    .container{
+
+@media(max-width: 1240px) {
+    .container {
         max-width: 100%;
         padding: 0 20px;
     }
 }
-@media(max-width: 576px){
+
+@media(max-width: 576px) {
     h1 {
         font-size: 30px;
         line-height: 45px;
     }
-    
+
     h2 {
         font-size: 18px;
         line-height: 27px;

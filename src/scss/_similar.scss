@@ -3,20 +3,24 @@
     margin-bottom: 100px;
     color: $white;
 }
+
 .similar-title {
     margin-bottom: 23px;
     text-align: left;
 }
+
 .similar-items {
     display: flex;
     flex-wrap: wrap;
 }
+
 .similar-item {
     width: calc(100% / 4 - 50px);
     margin-right: 50px;
     margin-top: 25px;
     text-align: center;
 }
+
 .similar-img {
     width: 250px;
     height: auto;
@@ -24,19 +28,23 @@
     max-height: 250px;
     margin-bottom: 11px;
 }
+
 .similar-name {
     font-size: 18px;
     font-weight: 700;
 }
+
 .similar-followers {
     color: $link;
 }
-@media(max-width:992px){
+
+@media(max-width:992px) {
     .similar-item {
         width: calc(100% / 3 - 50px);
     }
 }
-@media(max-width:660px){
+
+@media(max-width:660px) {
     .similar-item {
         width: calc(100% / 2 - 50px);
     }

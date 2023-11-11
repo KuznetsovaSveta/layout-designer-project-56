@@ -689,12 +689,11 @@ a {
 .popular {
   padding-top: 100px;
   color: #fff;
-  margin-bottom: -25px;
 }
 
 .popular-title {
   text-align: left;
-  margin-bottom: 48px;
+  margin-bottom: 23px;
 }
 
 .popular-tracks {
@@ -704,7 +703,7 @@ a {
 
 .popular-track {
   width: calc(50% - 50px);
-  margin-bottom: 25px;
+  margin-top: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -6,12 +6,15 @@
     background-position: center;
     background-size: cover;
 }
+
 .hero-subtitle {
     margin-bottom: 30px;
 }
+
 .hero-description {
     margin-bottom: 16px;
 }
+
 .hero-form {
     max-width: 570px;
     display: flex;
@@ -31,9 +34,11 @@
     padding: 0 22px;
     background: transparent;
 }
+
 .form-input::placeholder {
     color: $white;
 }
+
 .form-btn {
     width: 100%;
     margin-top: 24px;
@@ -42,19 +47,22 @@
     outline: none;
     border: none;
 }
-@media(max-width:992px){}
-@media(max-width:576px){
-    .hero{
+
+@media(max-width:576px) {
+    .hero {
         padding-top: 248px;
     }
-    .hero-subtitle{
+
+    .hero-subtitle {
         margin-bottom: 16px;
     }
-    .form-input{
+
+    .form-input {
         width: 100%;
         margin-bottom: 24px;
     }
-    .form-btn{
+
+    .form-btn {
         margin-top: 0;
     }
 }
