@@ -48,7 +48,7 @@
     border: none;
 }
 
-@media (max-width: 576px) {
+@media (width < 576px) {
     .hero {
         padding-top: 248px;
     }

@@ -38,13 +38,13 @@
     color: $link;
 }
 
-@media (max-width: 992px) {
+@media (width < 992px) {
     .similar-item {
         width: calc(100% / 3 - 50px);
     }
 }
 
-@media (max-width: 660px) {
+@media (width < 660px) {
     .similar-item {
         width: calc(100% / 2 - 50px);
     }

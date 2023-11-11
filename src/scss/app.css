@@ -94,13 +94,13 @@ a {
   background: #95390C;
 }
 
-@media (max-width: 1240px) {
+@media (width < 1240px) {
   .container {
     max-width: 100%;
     padding: 0 20px;
   }
 }
-@media (max-width: 576px) {
+@media (width < 576px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -194,12 +194,12 @@ a {
   color: #757575;
 }
 
-@media (max-width: 992px) {
+@media (width < 992px) {
   .header-nav {
     padding-left: 24px;
   }
 }
-@media (max-width: 768px) {
+@media (width < 768px) {
   .header-container {
     flex-direction: column;
     align-items: start;
@@ -211,7 +211,7 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 576px) {
+@media (width < 576px) {
   .header-left {
     flex-direction: column;
     align-items: start;
@@ -283,7 +283,7 @@ a {
   border: none;
 }
 
-@media (max-width: 576px) {
+@media (width < 576px) {
   .hero {
     padding-top: 248px;
   }
@@ -378,7 +378,7 @@ a {
   line-height: 150%;
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
   .pricing-item {
     width: 100%;
     padding-top: 13px;
@@ -392,7 +392,7 @@ a {
     margin-bottom: 203px;
   }
 }
-@media (max-width: 576px) {
+@media (width < 576px) {
   .pricing-item-title {
     font-size: 16px;
     font-weight: 700;
@@ -483,7 +483,7 @@ a {
   font-size: 12px;
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
   .news-item {
     flex-direction: column;
     width: 100%;
@@ -542,7 +542,7 @@ a {
   max-width: 333px;
 }
 
-@media (max-width: 576px) {
+@media (width < 576px) {
   .mobile-content {
     flex-direction: column-reverse;
     align-items: center;
@@ -608,12 +608,12 @@ a {
   margin-right: 16px;
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
   .footer-top-menu {
     grid-column: span 6;
   }
 }
-@media (max-width: 576px) {
+@media (width < 576px) {
   .footer-top {
     grid-gap: 30px;
   }
@@ -668,7 +668,7 @@ a {
   margin-right: 24px;
 }
 
-@media (max-width: 576px) {
+@media (width < 576px) {
   .artist {
     padding: 225px 0;
   }
@@ -677,7 +677,7 @@ a {
     line-height: 45px;
   }
 }
-@media (max-width: 480px) {
+@media (width < 480px) {
   .artist-buttons {
     flex-direction: column;
   }
@@ -739,12 +739,12 @@ a {
   color: #E0E0E0;
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
   .popular-track {
     width: calc(50% - 25px);
   }
 }
-@media (max-width: 576px) {
+@media (width < 576px) {
   .popular-track {
     width: 100%;
   }
@@ -791,12 +791,12 @@ a {
   color: #E0E0E0;
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
   .discography-item {
     width: calc(33.3333333333% - 50px);
   }
 }
-@media (max-width: 660px) {
+@media (width < 660px) {
   .discography-item {
     width: calc(50% - 50px);
   }
@@ -845,12 +845,12 @@ a {
   color: #E0E0E0;
 }
 
-@media (max-width: 992px) {
+@media (width < 992px) {
   .similar-item {
     width: calc(33.3333333333% - 50px);
   }
 }
-@media (max-width: 660px) {
+@media (width < 660px) {
   .similar-item {
     width: calc(50% - 50px);
   }

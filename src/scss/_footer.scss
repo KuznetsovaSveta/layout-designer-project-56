@@ -50,13 +50,13 @@
     margin-right: 16px;
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
     .footer-top-menu {
         grid-column: span 6;
     }
 }
 
-@media (max-width: 576px) {
+@media (width < 576px) {
     .footer-top {
         grid-gap: 30px;
     }
