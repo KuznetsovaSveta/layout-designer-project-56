@@ -1,11 +1,10 @@
 .discography {
     padding-top: 100px;
     color: $white;
-    margin-bottom: -25px;
 }
 .discography-title {
     text-align: left;
-    margin-bottom: 48px;
+    margin-bottom: 23px;
 }
 .discography-items {
     display: flex;
@@ -14,7 +13,7 @@
 .discography-item {
     width: calc(25% - 50px);
     margin-right: 50px;
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 .discography-img{
     width: 250px;

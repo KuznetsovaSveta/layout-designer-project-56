@@ -752,12 +752,11 @@ a {
 .discography {
   padding-top: 100px;
   color: #fff;
-  margin-bottom: -25px;
 }
 
 .discography-title {
   text-align: left;
-  margin-bottom: 48px;
+  margin-bottom: 23px;
 }
 
 .discography-items {
@@ -768,7 +767,7 @@ a {
 .discography-item {
   width: calc(25% - 50px);
   margin-right: 50px;
-  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .discography-img {
