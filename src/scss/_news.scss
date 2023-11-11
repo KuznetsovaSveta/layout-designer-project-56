@@ -61,7 +61,7 @@
     padding-left: 35px;
 }
 
-.new-author:before {
+.new-author::before {
     content: '';
     position: absolute;
     left: 0;
