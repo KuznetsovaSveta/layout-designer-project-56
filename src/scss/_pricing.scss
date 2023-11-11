@@ -78,7 +78,7 @@
     line-height: 150%;
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
     .pricing-item {
         width: 100%;
         padding-top: 13px;
@@ -89,13 +89,13 @@
             margin-bottom: 40px;
         }
     }
-
+    
     .pricing-item-title {
         margin-bottom: 203px;
     }
 }
 
-@media(max-width:576px) {
+@media (max-width: 576px) {
     .pricing-item-title {
         font-size: 16px;
         font-weight: 700;

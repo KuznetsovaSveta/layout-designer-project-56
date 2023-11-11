@@ -37,13 +37,13 @@
     color: $link;
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
     .discography-item {
         width: calc(100% / 3 - 50px);
     }
 }
 
-@media(max-width:660px) {
+@media (max-width: 660px) {
     .discography-item {
         width: calc(100% / 2 - 50px);
     }
